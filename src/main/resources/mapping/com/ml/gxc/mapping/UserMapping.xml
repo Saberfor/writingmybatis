@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ml.gxc.mapper.Usermapper">
+    <resultMap id="resultMap" type="com.ml.gxc.bean.User">
+    </resultMap>
+
+    <select id="sqlone" resultMap="resultMap">
+        select * from user
+    </select>
+</mapper>
